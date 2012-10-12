@@ -1,0 +1,17 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Authorisation Required
+Mailing-List: list <MAILING-LIST>
+
+The following user requested joining the <ADDRESS>
+mailing-list:
+
+  <USER>
+
+Please reply to this email with the tokens below included in order to
+approve this subscription:
+
+  [id: <ID>]
+  [key: <KEY>]

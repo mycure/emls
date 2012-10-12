@@ -1,0 +1,16 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Confirmation Required
+Mailing-List: list <MAILING-LIST>
+
+You requested subscribing to the following mailing-list:
+
+  <ADDRESS>
+
+Please reply to this email with the tokens below included in order to
+confirm your registration.
+
+  [id: <ID>]
+  [key: <KEY>]

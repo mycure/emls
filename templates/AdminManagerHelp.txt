@@ -1,0 +1,221 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Help
+Mailing-List: list <MAILING-LIST>
+
+Below are summarised the commands for managing your subscription.
+
+
+
+---[ Show
+
+Description:
+  This command displays information about your subscription.
+
+Syntax:
+  [cmd: show]
+ 
+
+
+---[ Unsubscribe
+
+Description:
+  This command unsubscribes the email address from the mailing-list.
+
+Syntax:
+  [cmd: unsubscribe]
+
+
+
+---[ Behaviour
+
+Description:
+  This commands modifies the your subscription's behaviour.
+
+Syntax:
+  [cmd: behaviour ${behaviour}]
+
+Arguments:
+  ${behaviour}
+    The user's behaviour which can take one of the following values:
+      - listener: in which case you only receive message but are not
+                  allowed to post.
+      - speaker: in which case you can post but do not receive the messages.
+      - contributor: you are allowed to post and receive messages.
+
+Examples:
+  [cmd: behaviour speaker]
+
+
+
+
+
+Below are summarised the commands for managing the mailing-list.
+
+
+
+---[ Dump
+
+Description:
+  This command displays every information available about the mailing-list.
+
+Syntax:
+  [cmd: dump]
+
+
+
+---[ Add
+
+Description:
+  This command adds a member to the mailing-list.
+
+Syntax:
+  [cmd: add ${address} ${behaviour}]
+
+Arguments:
+  ${address}
+    The user's email address.
+
+  ${behaviour}
+    The user's behaviour which can take one of the following values:
+      - listener: in which case you only receive message but are not
+                  allowed to post.
+      - speaker: in which case you can post but do not receive the messages.
+      - contributor: you are allowed to post and receive messages.
+
+Examples:
+  [cmd: add teton@ingurgite.com contributor]
+
+
+
+---[ Insert
+
+Description
+  This command adds a mailing-list as a member of the current list.
+
+Syntax:
+  [cmd: insert ${id}]
+
+Arguments:
+  ${id}
+    The mailing-list identifier.
+
+Examples:
+  [cmd: insert developers.mozilla.com]
+
+
+
+---[ Edit
+
+Description:
+  This command edits a member's subscription.
+
+Syntax:
+  [cmd: edit ${address} ${behaviour}]
+
+Arguments:
+  ${address}
+    The user's email address.
+
+  ${behaviour}
+    The user's behaviour which can take one of the following values:
+      - listener: in which case you only receive message but are not
+                  allowed to post.
+      - speaker: in which case you can post but do not receive the messages.
+      - contributor: you are allowed to post and receive messages.
+
+Examples:
+  [cmd: edit suce@mon.cul speaker]
+
+
+
+---[ Remove
+
+Description:
+  This command removes a member from the mailing-list.
+
+Syntax:
+  [cmd: remove ${address}]
+
+Arguments:
+  ${address}
+    The user's email address.
+
+Examples:
+  [cmd: remove bill@microsoft.com]
+
+
+
+---[ Description
+
+Description:
+  This command enables the administrator to change the mailing-list
+  description text.
+
+Syntax:
+  [cmd: description ${description}]
+
+Arguments:
+  ${description}
+    The actual text.
+
+Examples:
+  [cmd: description This mailing-list is reserved to developers.]
+
+
+
+---[ Tag
+
+Description:
+  This command changes the mailing-list tag.
+
+Syntax:
+  [cmd: tag ${tag}]
+
+Arguments:
+  ${tag}
+    This is the actual tag string which can take any single line value.
+
+Examples:
+  [cmd: tag \[teton-developers\] ]
+
+
+
+---[ Membership
+
+Description:
+  This command modifies the mailing-list's membership policy.
+
+Syntax:
+  [cmd: membership ${membership}]
+
+Arguments:
+  ${membership}
+    This is the membership policy and it can take on of the following values:
+      - public: everybody can join the mailing-list.
+      - moderated: everybody can request to join but the manager must approve.
+      - private: only the manager can manage the list of members.
+
+Examples:
+  [cmd: membership moderated]
+
+
+
+---[ Control
+
+Description:
+  This command modifies the mailing-list's control policy.
+
+Syntax:
+  [cmd: control ${control}]
+
+Arguments:
+  ${control}
+    This is the post policy which can take the following values:
+      - open: the members can post freely.
+      - filtered: the members' posts must be validated by the manager.
+
+Examples:
+  [cmd: control filtered]

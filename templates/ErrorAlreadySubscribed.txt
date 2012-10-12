@@ -1,0 +1,15 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Already Registered
+Mailing-List: list <MAILING-LIST>
+
+It looks like you are already registered to:
+
+  <ADDRESS>
+
+You can manage your subscription through the email
+address below:
+
+  <ADDRESS:ADMIN>

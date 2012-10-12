@@ -1,0 +1,49 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Help
+Mailing-List: list <MAILING-LIST>
+
+Below are summarised the commands for managing your subscription.
+
+
+
+---[ Show
+
+Description:
+  This command displays information about your subscription.
+
+Syntax:
+  [cmd: show]
+ 
+
+
+---[ Unsubscribe
+
+Description:
+  This command unsubscribes the email address from the mailing-list.
+
+Syntax:
+  [cmd: unsubscribe]
+
+
+
+---[ Behaviour
+
+Description:
+  This commands modifies the your subscription's behaviour.
+
+Syntax:
+  [cmd: behaviour ${behaviour}]
+
+Arguments:
+  ${behaviour}
+    The user's behaviour which can take one of the following values:
+      - listener: in which case you only receive message but are not
+                  allowed to post.
+      - speaker: in which case you can post but do not receive the messages.
+      - contributor: you are allowed to post and receive messages.
+
+Examples:
+  [cmd: behaviour speaker]

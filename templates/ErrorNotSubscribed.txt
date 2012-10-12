@@ -1,0 +1,20 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Not Registered
+Mailing-List: list <MAILING-LIST>
+
+You cannot perform this action since you do not appear to be subscribed
+to the following mailing-list:
+
+  <ADDRESS>
+
+Note that you may be indirectly registered as a user of another mailing-list
+which has been configured as member of this one. As such, you may be able to
+post messages, receive messages but not to administrate your registration.
+
+You can subscribe to this mailing-list by sending an email to the
+address below:
+
+  <ADDRESS:SUBSCRIBE>

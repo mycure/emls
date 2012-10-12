@@ -1,0 +1,12 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Bad Configuration
+Mailing-List: list <MAILING-LIST>
+
+An error was discovered in the configuration file of the following mailing-list:
+
+  <ADDRESS>
+
+This error preventing <ACTION>.

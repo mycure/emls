@@ -1,0 +1,20 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Bad Command
+Mailing-List: list <MAILING-LIST>
+
+You tried to perform an administrative operation for the following
+mailing-list but the actual command was missing or incorrect:
+
+  <ADDRESS>
+
+For more information on the available commands, just reply to this email
+with the following token:
+
+  [cmd: help]
+
+Please try again but be aware that your message in order to act as an
+administrative operation *must* contain the [cmd: ] token with the correct
+arguments.

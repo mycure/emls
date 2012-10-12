@@ -1,0 +1,19 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Unknown Token
+Mailing-List: list <MAILING-LIST>
+
+You tried to confirm an action for the following mailing-list:
+
+  <ADDRESS>
+
+Unfortunately the token identifier you provided does not match any of
+the queued operations:
+
+  <ID>
+
+Please try again but be aware that your message in order to act as a
+confirmation *must* contain both the [id: ] and [key: ] tokens which were
+provided to you.

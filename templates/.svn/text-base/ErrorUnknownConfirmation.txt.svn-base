@@ -1,0 +1,17 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Unknown Confirmation
+Mailing-List: list <MAILING-LIST>
+
+You tried to confirm the '<ID>' action for
+the following mailing-list but it did not go through for unknown reason:
+
+  <ADDRESS>
+
+Please try again but be sure to send your email from either your registered
+email address or your manager email address.
+
+Also make sure confirmation is required for this action and remember to
+include both the [id: ] and [key: ] tokens in your email.

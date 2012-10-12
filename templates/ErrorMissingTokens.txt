@@ -1,0 +1,15 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Missing Tokens
+Mailing-List: list <MAILING-LIST>
+
+You tried to confirm an action for the following mailing-list but information
+were missing from your email, making the confirmation impossible to apply:
+
+  <ADDRESS>
+
+Please try again but be aware that your message in order to act as a
+confirmation *must* contain both the [id: ] and [key: ] tokens which were
+provided to you.

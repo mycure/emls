@@ -1,0 +1,15 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Private Registration
+Mailing-List: list <MAILING-LIST>
+
+The following mailing-list's membership policy is private:
+
+  <ADDRESS>
+
+Therefore, the manager is the only one allowed to register new members.
+
+If you believe you should be subscribed to this mailing-list, please contact
+the manager directly, as you should know who he is.

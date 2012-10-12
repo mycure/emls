@@ -1,0 +1,16 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Subscription
+Mailing-List: list <MAILING-LIST>
+
+You have been added to the following mailing-list:
+
+  <ADDRESS>
+
+"<DESCRIPTION>"
+-- 
+<ADDRESS:SUBSCRIBE>
+<ADDRESS:ADMIN>
+<ADDRESS:CONFIRM>

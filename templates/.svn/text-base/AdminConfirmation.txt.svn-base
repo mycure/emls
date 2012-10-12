@@ -1,0 +1,21 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Confirmation Required
+Mailing-List: list <MAILING-LIST>
+
+It looks like you tried to perform an administrative task on the
+following mailing-list which require your approval:
+
+  <ADDRESS>
+
+Please reply to this message in order to approve and perform
+the following admin task:
+
+  "<ACTION>"
+
+When replying for approval, please include these tokens:
+
+  [id: <ID>]
+  [key: <KEY>]

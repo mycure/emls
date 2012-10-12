@@ -1,0 +1,14 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Unable To Post
+Mailing-List: list <MAILING-LIST>
+
+You are not allowed to post to the following mailing-list:
+
+  <ADDRESS>
+
+To subscribe to this mailing-list, email the following address:
+
+  <ADDRESS:SUBSCRIBE>

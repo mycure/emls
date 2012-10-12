@@ -1,0 +1,8 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Dump
+Mailing-List: list <MAILING-LIST>
+
+<CONTENTS>

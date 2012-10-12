@@ -1,0 +1,26 @@
+Date: <DATE>
+From: <FROM>
+To: <TO>
+Reply-To: <REPLY-TO>
+Subject: [<ADDRESS>] Authorisation Required
+Mailing-List: list <MAILING-LIST>
+
+A message has been posted on the following mailing-list which requires
+your approval:
+
+  <ADDRESS>
+
+Please reply to this message in order to allow the following message to
+be posted:
+
+-------------------------------------------------------------------------------
+From: <USER>
+Subject: <SUBJECT>
+
+<CONTENTS>
+-------------------------------------------------------------------------------
+
+When replying for approval, please include these tokens:
+
+  [id: <ID>]
+  [key: <KEY>]
